@@ -1,0 +1,91 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(24deg, rgb(155, 0, 103) 15%, rgb(183, 0, 255) 40%, rgb(126, 0, 165) 80%);
+  overflow: auto;
+}
+
+.container h3 {
+  color: rgb(255, 101, 216);
+}
+
+.divider {
+  background: rgb(240, 123, 255);
+  width: 100%;
+  height: 1px;
+}
+
+.inputContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.formContainer form {
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: Lexend, Lexend Deca;
+}
+
+.formContainer form input {
+  width: 50%;
+  height: 66px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  font-family: Lexend, Lexend Deca;
+  font-weight: 400;
+  background-color: rgb(224, 58, 202);
+  color: rgb(243, 202, 233);
+}
+
+.formContainer ::placeholder {
+  color:rgb(250, 120, 255);
+}
+
+.formContainer form button {
+  width: 25%;
+  height: 40px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 16px;
+  background-color: rgb(224, 58, 202);
+}
+
+.loadingIndicator {
+  color: rgb(255, 147, 214);
+  font-weight: bold;
+}
+
+.button {
+  background-color: rgb(224, 58, 202);
+  color: rgb(243, 202, 233);
+  font-family: Lexend, Lexend Deca;
+  cursor: pointer;
+}
+
+.text{
+  background-color: white;
+  color: pink;
+}

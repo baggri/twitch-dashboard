@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 250px;
+  margin-top: 1em;
+}
+
+.container h2 {
+  color: rgb(237, 150, 255);
+}
+
+.gridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.gridItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 4px rgb(199, 130, 255) solid;
+  background-color: #00000080;
+  color: rgb(215, 156, 255);
+  font-size: 14px;
+  margin-right: 1em;
+  position: relative;
+  overflow: hidden;
+}
+
+.gridItem p {
+  margin: 0;
+}
+
+.gridItem p:first-child {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.gridItem p:last-child {
+  font-size: 12px;
+}
+
+.gridItemContent {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color:#00000080;
+  bottom: 0;
+  padding: 5px
+}
+
+.gridItem button {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 0;
+  margin-left: 5px;
+  margin-top: 5px;
+  background-color: rgb(147, 0, 177);
+  color: rgb(244, 160, 255);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.gridNoItems {
+  align-items: center;
+  justify-content: center;
+  background-color: #00000000;
+  border-radius: 10px;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+.button {
+  background-color: rgb(234, 79, 255);
+  color: rgb(243, 202, 233);
+  font-family: Lexend, Lexend Deca;
+  cursor: pointer;
+}
